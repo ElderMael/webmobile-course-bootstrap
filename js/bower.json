@@ -1,0 +1,15 @@
+{
+  "name": "webmobile-course",
+  "version": "0.0.1",
+  "authors": [
+    "ElderMael <sftwr.mael@gmail.com>"
+  ],
+  "description": "Web Mobile Course Bootstrap Mini Project",
+  "main": "application.js",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "LGPL",
+  "homepage": "https://github.com/ElderMael/webmobile-course-bootstrap",
+  "private": true
+}
