@@ -6,11 +6,18 @@
             bootstrap: 'bower_components/bootstrap/dist/js/bootstrap'
         },
         shim: {
+            bootstrap: {
+                deps: ['jquery']
+            }
         },
         waitSeconds: 20
     });
 
-    require(['jquery'], function() {
+    require(['bootstrap'], function () {
+
+        $(document).ready(function () {
+            console.log("Hello, World!");
+        });
 
     });
 
